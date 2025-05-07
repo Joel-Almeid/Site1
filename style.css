@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header-inicial, .header-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+}
+.logo {
+    height: 50px;
+}
+.sistema-texto {
+    text-align: center;
+    flex: 1;
+}
+.btn-login {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icon-login {
+    height: 20px;
+    margin-right: 5px;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sidebar {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bem-vindo {
+    font-weight: bold;
+}
